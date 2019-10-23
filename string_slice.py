@@ -15,6 +15,22 @@ print(s[::3]) #cały string co 3 znak
 #reverse w Pythonie
 print(s[::-1]) #który język zrobi to krócej :P
 
+print("Hello"+"World")
+
+a = "Hello"
+b = "alx"
+
+print(f"{a} {b} {1+2}")
+print("{} {} {}".format(a, b, 1+6))
+
+x = input("Podaj wartość x")
+print(x, type(x))
+
+x = int(x, type(x))
+
+
+
+
 
 
 
