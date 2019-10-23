@@ -1,0 +1,3 @@
+echo strrev($s); #php
+echo "s" | rev  #linux
+rev<<<"s" #linux
