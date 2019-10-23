@@ -10,6 +10,7 @@ napis5 = "Znak specjalny \t \n \r"
 dlugosc = len(napis1)
 print("Długość zmiennej napis1 to ", dlugosc, "znaków")
 
+<<<<<<< HEAD
 #wiek = input("Podaj swój wiek")
 #print("Twój wiek to:", wiek.strip())
 
@@ -30,5 +31,7 @@ print("Litera przedostatnia:", s[-2])
 
 
 
+=======
+>>>>>>> 8206735dbc0f49d2f4db8af7bbbe78097c8639c7
 
 
