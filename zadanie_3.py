@@ -15,3 +15,5 @@ elif x > 90:
     print("Jesteś na PK")
 elif x < 10:
     print("jgbhjh")
+elif x < 10:
+    print("jgbhjh")
