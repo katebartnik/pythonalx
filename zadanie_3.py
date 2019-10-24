@@ -12,12 +12,12 @@ elif x < 10 and y > 90:
 elif x < 10 and y < 10:
     print("Jesteś w LDR")
 elif x > 90:
-    print("Jeteś na PK")
+    print("Jesteś na PK")
 elif x < 10:
-    print("Jeteś na LK")
+    print("Jesteś na LK")
 elif y > 90:
-    print("Jeteś na GK")
+    print("Jesteś na GK")
 elif y < 10:
-    print("Jeteś na DK")
+    print("Jesteś na DK")
 else:
     print("Jesteś w Centrum")
