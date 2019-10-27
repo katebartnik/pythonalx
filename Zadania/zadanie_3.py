@@ -21,3 +21,6 @@ elif y < 10:
     print("Jesteś na DK")
 else:
     print("Jesteś w Centrum")
+
+
+
