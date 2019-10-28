@@ -7,6 +7,7 @@ for x in lista:
     x = int(input("Podaj wartość: "))
     suma += 1
 print(suma)
+print(suma/10)
 
 
 
