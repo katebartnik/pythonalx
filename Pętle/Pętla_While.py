@@ -34,4 +34,20 @@ while x>7:
 while False:
     print("Jestem w pętli")
 
+x = 10
+while x > 0:
+    print(x)
+    x = x - 1
 
+while True:
+    instrukcja = input("Wciśniej 'k' aby zakończyć")
+    if instrukcja == 'k':
+        break
+
+x = 10
+while x > 0:
+    if x == 6:
+        x -= 1
+        continue
+    print(x)
+    x = x - 1
