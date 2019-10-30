@@ -39,7 +39,10 @@ Po każdym ruchu mozesz dostac info czy sie zblizasz czy oddalasz
 while True:
  #pytamy gracza o ruch
 
-    ruch == input("Wpisz komendę (a-lewo, d-prawo, w-góra, s-dół)")
+    odleglosc_przed = abs(skarb_x-gracz_x) + abs(skarb_y-gracz_y)
+
+    ruch = input("Wpisz komendę (a-lewo, d-prawo, w-góra, s-dół)")
+
 #zmianiamy pozycje zgodnie z komenda
     if ruch == 'a':
         gracz_x = gracz_x - 1
@@ -50,4 +53,25 @@ while True:
     elif ruch == 'w':
         gracz_y += 1
     else:
-    print("Trzymaj sie regul")
+        print("Trzymaj sie regul")
+
+
+    #po ruchu robimy sprawdzenie
+
+    if not (1 <= gracz_x <= 10 and 1 <= gracz_y <= 10):
+        print("Wypadłeś poza plansze")
+        break
+
+    odleglosc_po_ruchu = abs(skarb_x-gracz_x) + abs(skarb_y-gracz_y)
+
+    if DEBUG:
+        print(f"Odleglosc przed: {odleglosc_przed}")
+        print(f"Odleglosc po: {odleglosc_po_ruchu}")
+
+
+    if odleglosc_po_ruchu < odleglosc_przed:
+        print("Ciepło")
+    elif odleglosc_po_ruchu > odleglosc_po_wylosowaniu:
+        print("Zimno")
+    else:
+        print("Bez zmian")
