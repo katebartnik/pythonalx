@@ -27,6 +27,15 @@ ide w lewo i trafiam na skarb
 
 plansza = [[0,0,0,0],[0,0,0,0],[0,S,0,0],[0,0,0,0]]
 
-
-
 """
+
+playerPositionX = int(input("podaj pozucję x gracza:")) - 1 #musimy przetransformować wartość inputową na wartość indeksową
+playerPositionY = int(input("podaj pozucję y gracza:")) - 1
+
+for i in range(5):
+    print('')
+    for j in range(5):
+        if playerPositionX == j and playerPositionY == i:
+            print("G", end=" ")
+        else:
+            print("0", end=" ")
