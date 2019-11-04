@@ -13,3 +13,4 @@ print(powieksz("ala"))
 print(x)
 
 
+
