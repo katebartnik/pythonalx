@@ -1,2 +1,5 @@
 .idea
 wazne_hasla.txt
+venv38
+__pycache__
+.pytest_cache

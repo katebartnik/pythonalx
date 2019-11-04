@@ -21,4 +21,4 @@ assert czy_pierwsza(10) is False
 
 #zapisywanie dokumentacji, doctest
 
-print(help(czy_pierwsza())
+print(help(czy_pierwsza()))
