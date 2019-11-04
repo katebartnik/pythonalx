@@ -9,8 +9,11 @@ wynik = do_potegi(2, 12)
 wynik2 = do_potegi(5, 5)
 
 def unique_letters(text):
-    u_letters = set(txt)
+    u_letters = set(text)
     u_letters = "".join(u_letters)
-    return u_letters, len(txt)
+    return u_letters, len(text)
 
 dane = unique_letters("kate")
+print("litery:", dane[0])
+
+litery, dlugosc = "Kasia"
