@@ -1,9 +1,15 @@
 import turtle
-print(help(turtle))
+"""
+Napisz funkcję która narysuje dowol;ny wielokat formny
+"""
 
-for i in range(3):
-    turtle.right(120) #skręca w prawo o zadany kat
-    turtle.forward(50) #idzie do przodu
-
+def j in range(4)
+    for i in range(40):
+        turtle.right(360(j/i)) #skręca w prawo o zadany kat
+        turtle.forward(50) #idzie do przodu
 
 turtle.done()
+
+
+
+
