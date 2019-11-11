@@ -3,16 +3,13 @@ napis = "ALa ma kota"
 for znak in napis:
     znak = znak.upper()
     print(znak)
-print("Wartość po zakończeniu pętli", znak)
-
-elementy = (1, 'a', 2, 'c')
 
 elementy = (1, 'a', 2, 'c')
 lista = [4, 12, 11, 1]
 for n in lista:
     print(1**2)
-słownik = {1: "a", "Ala": "kot", "Albert":"Einstein"}
-for k in słownik:
+slownik = {1: "a", "Ala": "kot", "Albert":"Einstein"}
+for k in slownik:
     print(k)
 zbior = {1, 2, 3, 'a'}
 
