@@ -1,4 +1,3 @@
-
 import random
 
 osoby = ['marek', 'przemek', "michał", "kamila"]
@@ -12,6 +11,9 @@ mapped = zip(osoby, osoby2)
 
 for persons in mapped:
     print(persons[0] + ' kupuje prezent dla ' + persons[1])
+    
+
+
 
 
 
