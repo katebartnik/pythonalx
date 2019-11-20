@@ -21,7 +21,11 @@ print(silnia_iter(x))
 # Napisz funkcje która wybierze i zwróci z podanego napisu liste liczb
 # x = "a1b2c1d2"
 # [1, 2, 1, 2]
-# x = "a100v300"
+
+
+
+#d - do domku
+# x = "a100v200"
 # [1,0,0, 2, 0, 0]
 
 def wybierz_cyfry(napis):
